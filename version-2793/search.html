@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索剧集-国产好剧</title>
+  <meta name="description" content="搜索剧集页面支持按标题、分类、地区、类型和标签快速查找高清免费在线播放内容。">
+  <meta name="keywords" content="搜索剧集,国产电视剧视频免费在线播放—高清全集资源推荐-国产好剧,国产,视频,免费,在线观看,高清,影视大全">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="index.html" aria-label="国产好剧">
+      <span class="brand-mark">剧</span>
+      <span class="brand-name gradient-text">国产好剧</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="categories/guochan-ju.html">国产剧</a>
+      <a class="nav-link" href="categories/rihan-ju.html">日韩剧</a>
+      <a class="nav-link" href="categories/oumei-ju.html">欧美剧</a>
+      <a class="nav-link" href="categories/yatai-ju.html">亚洲剧</a>
+      <a class="nav-link" href="popular.html">热门</a>
+      <a class="nav-link" href="new.html">最新</a>
+    </nav>
+    <form class="nav-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="打开菜单" aria-expanded="false">菜单</button>
+  </div>
+  <div class="mobile-panel" aria-label="移动端导航">
+      <a href="index.html">首页</a>
+      <a href="categories/guochan-ju.html">国产剧</a>
+      <a href="categories/rihan-ju.html">日韩剧</a>
+      <a href="categories/oumei-ju.html">欧美剧</a>
+      <a href="categories/yatai-ju.html">亚洲剧</a>
+      <a href="popular.html">热门</a>
+      <a href="new.html">最新</a>
+    <a href="search.html">搜索</a>
+  </div>
+</header>
+<main class="page-transition">
+  <section class="search-hero">
+    <div class="container">
+      <h1>搜索剧集</h1>
+      <p>输入剧名、类型、地区或标签，快速定位想看的高清内容。</p>
+      <form class="search-panel" action="search.html" method="get">
+        <input id="site-search-input" type="search" name="q" placeholder="输入关键词..." aria-label="搜索关键词">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="section-block container">
+    <h2 id="search-status" class="search-status">热门推荐</h2>
+    <div id="search-results" class="movie-grid"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="brand footer-logo">
+        <span class="brand-mark">剧</span>
+        <span class="brand-name gradient-text">国产好剧</span>
+      </div>
+      <p>精选高清剧集与影片内容，覆盖热播、最新、分类与相关推荐。</p>
+    </div>
+    <div>
+      <h2>快速导航</h2>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="categories.html">分类</a></li>
+        <li><a href="popular.html">热门</a></li>
+        <li><a href="new.html">最新</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>分类入口</h2>
+      <ul>
+          <li><a href="categories/guochan-ju.html">国产剧</a></li>
+          <li><a href="categories/rihan-ju.html">日韩剧</a></li>
+          <li><a href="categories/oumei-ju.html">欧美剧</a></li>
+          <li><a href="categories/yatai-ju.html">亚洲剧</a></li>
+          <li><a href="categories/suspense-crime.html">悬疑犯罪</a></li>
+          <li><a href="categories/romance-drama.html">爱情剧情</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>观影索引</h2>
+      <ul>
+        <li><a href="search.html">搜索片库</a></li>
+        <li><a href="popular.html#rankings">排行榜</a></li>
+        <li><a href="new.html#latest">新片速递</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产好剧 · 高清视频免费在线播放</div>
+</footer>
+<script src="assets/app.js" defer></script>
+<script src="assets/search-data.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
